@@ -1,0 +1,140 @@
+/*---------- color sheme --------
+yellow: #fffb89;
+blue: #8999ff;
+red: #ff8991;
+----close to yellow-----
+green: #ccff89;
+orange: #ffde89;
+------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+*{
+	font-family: "Raleway", sans-serif;
+}
+body {
+	margin: 0;
+	background-color: #ffde89;			
+}
+#header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fffb89;
+	background-color:#8999ff;
+}
+/*---------- nav bar with buttons ----------*/
+#nav-bar {
+	position: fixed;
+	top: 80px;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color:#8999ff;
+	padding: 0;
+}
+#nav {
+	display: flex;
+	justify-content: flex-start;
+	list-style-type: none;
+	/*width: 100%;*/
+	margin: 0 0 0 20px;
+	padding: 0;
+	overflow: hidden;
+	color: white;
+}
+#nav li {
+	margin: 0 6px;
+}
+#nav a {
+	color: white;
+	text-decoration: none;
+}
+#button-cart {
+	width: 150px;
+	height: 50px;
+	/*margin: 0 20px 0 0;*/
+	text-align: center;
+	color: white;
+	/*background-color: #ff8991;*/
+	cursor: pointer;
+}
+#close {
+	margin: 0;
+	text-align: center;
+	color: #8999ff;
+	font-size: 150%;
+	border: none;
+	background-color: #ff8991;
+	cursor: pointer; 
+}
+/*----------  ----------*/
+#main {
+	margin: 130px 0 0;
+	width: 100%;
+}
+#items-list {
+	margin: 30px 0 30px;
+	width: 70%;
+	justify-content: space-between;
+}
+#item-day {
+	width: 70%;
+	margin: 20px 0;
+	color: ;
+}
+/*---------- containers --------*/
+.wrap {
+	display: flex;
+	flex-wrap: wrap;
+}
+.row {
+	display: flex;
+	justify-content: center;
+}
+.column {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+}
+.right {
+	width: 100%;
+	justify-content: flex-end;
+}
+.left {
+	justify-content: flex-start;
+}
+/*---------- thumbnail ----------*/
+.box {
+	margin: 10px;
+	width: 200px;
+	background-color: #ccff89;
+	border: 2px solid #ff8991;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.button-add {
+	width: 40px;
+	height: 40px;
+	margin: 4px;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+	background-color: #ff8991;
+	border-radius: 10%;
+}
+/*---------- shoping cart ----------*/
+#cart {
+	position: fixed;
+	display: none;
+	top: 80px;
+	right: 150px;
+	width: 300px;
+	min-height: 200px;
+	background-color: #ff8991;
+}

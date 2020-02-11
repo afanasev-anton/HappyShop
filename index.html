@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Happy Shop | buy food - stay happy</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="header">
+		<h1>Happy Shop &#128540;</h1>
+		<h3>&#11088; our products makes you happy &#11088;</h3>
+	</div>
+	<div id="nav-bar">
+		<ul id="nav">
+			<li><a href="index.html">Home</a></li>
+			<li id="b-items">All products</li>
+			<li id="b-recipe">Recipes</li>
+ 		</ul>
+ 		<div id="button-cart"><p>&#128722;View Cart (<span id="counter">0</span>)</p></div>
+	</div>
+	<div id="main" class="column">
+		<div id="cart" class="column left">
+			<div class="row right"><button id="close">&#10006;</button></div>
+			<div id="info"><p>The cart is empty</p></div>
+		</div>
+		
+		<div id="item-day" class="column">
+			<h1>Product of a day</h1>
+			<div class="row"></div>
+		</div>
+		
+		<div id="items-list" class="wrap"></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="date.json"></script>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

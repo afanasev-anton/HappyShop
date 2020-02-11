@@ -1,0 +1,56 @@
+var items = [
+	{"iD":"f001",
+	"name":"Artichoke",
+	"price":"3",
+	"status":"available",
+	"pic":"img/artichoke.jpg"},
+	
+	{"iD":"f002",
+	"name":"Broccoli",
+	"price":"2.5",
+	"status":"available",
+	"pic":"img/broccoli.jpg"},
+	
+	{"iD":"f003",
+	"name":"Brussels sprouts",
+	"price":"3.89",
+	"status":"available",
+	"pic":"img/brussels_sprouts.jpg"},
+	
+	{"iD":"f004",
+	"name":"Carrot",
+	"price":"0.83",
+	"status":"not available",
+	"pic":"img/carrot.jpg"},
+	
+	{"iD":"f005",
+	"name":"Corn",
+	"price":"0.55",
+	"status":"available",
+	"pic":"img/corn.jpg"},
+
+	{"iD":"f006",
+	"name":"Garlic",
+	"price":"1.99",
+	"status":"available",
+	"pic":"img/garlic.jpg"},
+
+	{"iD":"f007",
+	"name":"Paprica",
+	"price":"1.45",
+	"status":"available",
+	"pic":"img/paprica.jpg"},
+
+	{"iD":"f008",
+	"name":"Tomatoe",
+	"price":"2.78",
+	"status":"not available",
+	"pic":"img/tomatoe.jpg"},
+
+	{"iD":"f009",
+	"name":"Zuchini",
+	"price":"3",
+	"status":"available",
+	"pic":"img/zuchini.jpg"}
+]
+
